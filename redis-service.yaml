@@ -8,7 +8,7 @@ metadata:
 spec:
   ports:
   -  port: 6379
-     tagretPort: 6379
+     targetPort: 6379
   selector:
     name: redis-pod
     type: example-voting-app
