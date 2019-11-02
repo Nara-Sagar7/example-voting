@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: postgress
+  labels:
+    name: db
+    type: example-voting-app
+spec:
+  containers:
+  - name: postgress-pod
+    image: postgress
+    
