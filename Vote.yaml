@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: example-voting-app
+  name: example-vote-pod
   labels:
-    name: example-voting-app
-    type: voting app
+    name: example-vote-pod
+    type: example-voting-app
 spec:
   containers:
   -  name: emaple-vote-app

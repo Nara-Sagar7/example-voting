@@ -11,5 +11,6 @@ spec:
   -  port: 80
      targetPort: 80
   selector:
-    name: example-voting-app
-    type: voting app
+    name: example-vote-pod
+    type: example-voting-app
+    
