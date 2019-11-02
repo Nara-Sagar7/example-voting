@@ -7,6 +7,5 @@ metadata:
     type: example-voting-app
 spec:
   containers:
-  - name: postgress-pod
-    image: postgress
-    
+  - name: db
+    image: postgres:9.4
