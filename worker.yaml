@@ -9,4 +9,3 @@ spec:
   containers:
   -  name: worker-pod
      image: dockersamples/examplevotingapp_worker
-     
